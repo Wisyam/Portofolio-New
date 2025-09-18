@@ -1,3 +1,4 @@
+// Fix: Reordered the type references to fix module resolution issues.
 /// <reference types="next" />
 /// <reference types="next/image-types/global" />
 

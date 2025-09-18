@@ -1,10 +1,8 @@
-import type { Config } from 'tailwindcss'
-
-const config: Config = {
+/** @type {import('tailwindcss').Config} */
+module.exports = {
   content: [
     './pages/**/*.{js,ts,jsx,tsx,mdx}',
     './components/**/*.{js,ts,jsx,tsx,mdx}',
-    './app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
     extend: {
@@ -17,7 +15,7 @@ const config: Config = {
         'brand-accent': '#8F9B93',
       },
       fontFamily: {
-        sans: ['var(--font-inter)', 'sans-serif'],
+        sans: ['Inter', 'sans-serif'],
       },
       boxShadow: {
         'glow': '0 0 15px 5px rgba(102, 114, 107, 0.1)',
@@ -28,4 +26,3 @@ const config: Config = {
   },
   plugins: [],
 }
-export default config

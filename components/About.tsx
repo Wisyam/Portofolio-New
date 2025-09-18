@@ -1,4 +1,4 @@
-import { Skill } from '@/types';
+import { Skill } from '@/lib/types';
 import Image from 'next/image';
 import AnimatedSection from './AnimatedSection';
 

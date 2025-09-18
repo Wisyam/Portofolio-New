@@ -1,6 +1,6 @@
 'use client';
 import React, { useState, useEffect } from 'react';
-import { NavLink } from '@/types';
+import { NavLink } from '@/lib/types';
 
 const Header: React.FC<{ navLinks: NavLink[] }> = ({ navLinks }) => {
   const [isScrolled, setIsScrolled] = useState(false);

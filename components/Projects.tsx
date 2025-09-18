@@ -1,6 +1,6 @@
 'use client';
 import React, { useRef } from 'react';
-import { Project } from '@/types';
+import { Project } from '@/lib/types';
 import AnimatedSection from './AnimatedSection';
 import Image from 'next/image';
 

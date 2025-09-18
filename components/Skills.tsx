@@ -1,4 +1,4 @@
-import { Skill } from '@/types';
+import { Skill } from '@/lib/types';
 import AnimatedSection from './AnimatedSection';
 
 const Skills: React.FC<{ skills: Skill[] }> = ({ skills }) => (

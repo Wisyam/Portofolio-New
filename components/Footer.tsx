@@ -1,4 +1,4 @@
-import { NavLink } from '@/types';
+import { NavLink } from '@/lib/types';
 import * as Icons from './icons';
 
 const Footer: React.FC<{ navLinks: NavLink[] }> = ({ navLinks }) => (

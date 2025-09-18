@@ -1,6 +1,6 @@
 'use client';
 import React, { useState, useEffect } from 'react';
-import { Testimonial } from '@/types';
+import { Testimonial } from '@/lib/types';
 import AnimatedSection from './AnimatedSection';
 
 const useTypewriter = (text: string, speed = 30, start = true) => {

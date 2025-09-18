@@ -1,4 +1,4 @@
-import { Project, Testimonial, Skill, NavLink } from '@/types';
+import { Project, Testimonial, Skill, NavLink } from '@/lib/types';
 import * as Icons from '@/components/icons';
 
 export const navLinks: NavLink[] = [

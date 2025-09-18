@@ -3,6 +3,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import Head from 'next/head';
 import Image from 'next/image';
+import Link from 'next/link';
 import { Project, Testimonial, Skill, NavLink } from '../types';
 import * as Icons from '../components/icons';
 
@@ -110,13 +111,13 @@ const Header: React.FC<{ navLinks: NavLink[] }> = ({ navLinks }) => {
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
           <div className="flex-shrink-0">
-            <a href="#home" className="text-brand-text-light font-bold text-2xl font-sans tracking-wider" style={{ textShadow: '0 0 8px rgba(143, 155, 147, 0.4)' }}>WZ.</a>
+            <Link href="#home" className="text-brand-text-light font-bold text-2xl font-sans tracking-wider" style={{ textShadow: '0 0 8px rgba(143, 155, 147, 0.4)' }}>WZ.</Link>
           </div>
           <div className="hidden md:flex items-center space-x-6">
             {navLinks.map((link) => (
-              <a key={link.href} href={link.href} className="text-brand-text-light hover:text-brand-accent px-3 py-2 rounded-md text-sm font-medium transition-colors duration-300">
+              <Link key={link.href} href={link.href} className="text-brand-text-light hover:text-brand-accent px-3 py-2 rounded-md text-sm font-medium transition-colors duration-300">
                 {link.label}
-              </a>
+              </Link>
             ))}
             <a href="/resume.pdf" download="WisyamZain-Resume.pdf" className="inline-block border border-brand-accent text-brand-accent font-medium text-sm py-2 px-4 rounded-md hover:bg-brand-accent hover:text-brand-bg-dark transition-all duration-300 transform hover:scale-105">
               Download CV
@@ -150,9 +151,9 @@ const Hero: React.FC = () => {
                     <p className="text-lg md:text-xl text-brand-text-heading font-sans mb-8">
                         Mengembangkan solusi web modern dengan React, Node.js, dan AI untuk problem solving yang lebih cerdas.
                     </p>
-                    <a href="#projects" className="inline-block bg-brand-bg-secondary text-brand-text-light font-bold py-3 px-8 rounded-md hover:bg-brand-accent hover:text-brand-bg-dark hover:shadow-glow-hover transition-all duration-300 shadow-glow transform hover:scale-105 active:scale-95">
+                    <Link href="#projects" className="inline-block bg-brand-bg-secondary text-brand-text-light font-bold py-3 px-8 rounded-md hover:bg-brand-accent hover:text-brand-bg-dark hover:shadow-glow-hover transition-all duration-300 shadow-glow transform hover:scale-105 active:scale-95">
                         View My Work
-                    </a>
+                    </Link>
                 </AnimatedSection>
             </div>
         </section>
@@ -376,9 +377,9 @@ const Footer: React.FC<{ navLinks: NavLink[] }> = ({ navLinks }) => (
                 <div className="text-sm">&copy; {new Date().getFullYear()} Wisyam Zain Amanullah. All Rights Reserved.</div>
                 <div className="hidden md:flex items-baseline space-x-4">
                   {navLinks.map((link) => (
-                    <a key={link.href} href={link.href} className="hover:text-brand-accent px-3 py-2 rounded-md text-sm font-medium transition-colors duration-300">
+                    <Link key={link.href} href={link.href} className="hover:text-brand-accent px-3 py-2 rounded-md text-sm font-medium transition-colors duration-300">
                       {link.label}
-                    </a>
+                    </Link>
                   ))}
                 </div>
                 <div className="flex space-x-6">

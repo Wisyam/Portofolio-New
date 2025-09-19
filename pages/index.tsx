@@ -2,6 +2,7 @@
 
 import Head from 'next/head';
 import { Analytics } from "@vercel/analytics/next"
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 import {
   navLinks,
@@ -24,6 +25,7 @@ export default function Home() {
   return (
     <>
     <Analytics/>
+    <SpeedInsights/>
       <Head>
         <title>Wisyam Zain Amanullah - Fullstack Developer</title>
         <meta name="description" content="A professional and modern portfolio website for a fullstack developer, featuring a clean design, smooth animations, and detailed project showcases." />

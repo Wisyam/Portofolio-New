@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import { Analytics } from "@vercel/analytics/next"
 
 import {
   navLinks,
@@ -20,6 +21,7 @@ import Footer from '@/components/layout/Footer';
 export default function Home() {
   return (
     <>
+    <Analytics/>
       <Head>
         <title>Wisyam Zain Amanullah - Fullstack Developer</title>
         <meta name="description" content="A professional and modern portfolio website for a fullstack developer, featuring a clean design, smooth animations, and detailed project showcases." />

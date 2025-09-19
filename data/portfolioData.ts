@@ -47,6 +47,15 @@ export const projectsData: Project[] = [
         solution: 'Membuat sistem dasar game, mengembangkan server privat, balancing gameplay, serta membuat dan menjual 3D model dengan Blender.',
         result: '',
         tech: ['Game Logic', 'Server Management', 'Blender', '3D Modeling']
+    },
+    {
+        title: 'Testing project',
+        category: 'Game Development (2020 – 2025)',
+        imageUrl: '/images/project-1.jpg',
+        problem: '',
+        solution: 'Membuat sistem dasar game, mengembangkan server privat, balancing gameplay, serta membuat dan menjual 3D model dengan Blender.',
+        result: '',
+        tech: ['Game Logic', 'Server Management', 'Blender', '3D Modeling']
     }
 ];
 

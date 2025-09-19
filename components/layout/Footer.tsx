@@ -22,7 +22,7 @@ const Footer: React.FC<FooterProps> = ({ navLinks }) => (
                 </div>
                 <div className="flex space-x-6">
                   <a href="https://github.com/Wisyam" target="_blank" rel="noopener noreferrer" className="hover:text-brand-accent transition-all duration-300 transform hover:scale-125 hover:drop-shadow-[0_0_8px_rgba(143,155,147,0.5)]"><Icons.GitHubIcon /></a>
-                  <a href="https://linkedin.com/in/wisyam" target="_blank" rel="noopener noreferrer" className="hover:text-brand-accent transition-all duration-300 transform hover:scale-125 hover:drop-shadow-[0_0_8px_rgba(143,155,147,0.5)]"><Icons.LinkedInIcon /></a>
+                  <a href="https://www.linkedin.com/in/wisyam-zain-amanullah-91a694295/" target="_blank" rel="noopener noreferrer" className="hover:text-brand-accent transition-all duration-300 transform hover:scale-125 hover:drop-shadow-[0_0_8px_rgba(143,155,147,0.5)]"><Icons.LinkedInIcon /></a>
                 </div>
             </div>
         </div>

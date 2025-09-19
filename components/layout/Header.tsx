@@ -31,7 +31,7 @@ const Header: React.FC<HeaderProps> = ({ navLinks }) => {
                 {link.label}
               </Link>
             ))}
-            <a href="/resume.pdf" download="WisyamZain-Resume.pdf" className="inline-block border border-brand-accent text-brand-accent font-medium text-sm py-2 px-4 rounded-md hover:bg-brand-accent hover:text-brand-bg-dark transition-all duration-300 transform hover:scale-105">
+            <a href="/resume.docx" download="WisyamZain-Resume.docx" className="inline-block border border-brand-accent text-brand-accent font-medium text-sm py-2 px-4 rounded-md hover:bg-brand-accent hover:text-brand-bg-dark transition-all duration-300 transform hover:scale-105">
               Download CV
             </a>
           </div>

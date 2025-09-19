@@ -24,7 +24,7 @@ export const projectsData: Project[] = [
     {
         title: 'Mobigo Car Rental App',
         category: 'Web Application (2024)',
-        imageUrl: '/images/project-2.jpg',
+        imageUrl: '/images/project-1.jpg',
         problem: '',
         solution: 'Aplikasi rental mobil berbasis web. Peran: Frontend, Backend, UI/UX Designer, dan mentor tim. Fitur: autentikasi, transaksi sewa, dashboard admin.',
         result: '',
@@ -33,7 +33,7 @@ export const projectsData: Project[] = [
     {
         title: 'Backend Intern – PT Lanius Inovasi',
         category: 'Backend Development (2024 – 2025)',
-        imageUrl: '/images/project-3.jpg',
+        imageUrl: '/images/project-1.jpg',
         problem: '',
         solution: 'Membuat query Hopscotch DB, tabel backend, integrasi & testing. Mendukung tim untuk stabilitas sistem produksi.',
         result: '',
@@ -42,7 +42,7 @@ export const projectsData: Project[] = [
     {
         title: 'Game Development & Server Projects',
         category: 'Game Development (2020 – 2025)',
-        imageUrl: '/images/project-4.jpg',
+        imageUrl: '/images/project-1.jpg',
         problem: '',
         solution: 'Membuat sistem dasar game, mengembangkan server privat, balancing gameplay, serta membuat dan menjual 3D model dengan Blender.',
         result: '',

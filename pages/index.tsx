@@ -1,3 +1,5 @@
+'use client'
+
 import Head from 'next/head';
 import { Analytics } from "@vercel/analytics/next"
 

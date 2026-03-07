@@ -2,7 +2,6 @@
 
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
-// Fix: Updated import path to resolve module ambiguity.
 import { NavLink } from '@/types/index';
 
 interface HeaderProps {
@@ -23,7 +22,9 @@ const Header: React.FC<HeaderProps> = ({ navLinks }) => {
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
           <div className="flex-shrink-0">
-            <Link href="#home" className="text-brand-text-light font-bold text-2xl font-sans tracking-wider" style={{ textShadow: '0 0 8px rgba(143, 155, 147, 0.4)' }}>WZ.</Link>
+            <Link href="#home" className="text-brand-text-light font-bold text-2xl font-sans tracking-wider" style={{ textShadow: '0 0 8px rgba(143, 155, 147, 0.4)' }}>
+              WZ.
+            </Link>
           </div>
           <div className="hidden md:flex items-center space-x-6">
             {navLinks.map((link) => (
@@ -31,7 +32,7 @@ const Header: React.FC<HeaderProps> = ({ navLinks }) => {
                 {link.label}
               </Link>
             ))}
-            <a href="/resume.docx" download="WisyamZain-Resume.docx" className="inline-block border border-brand-accent text-brand-accent font-medium text-sm py-2 px-4 rounded-md hover:bg-brand-accent hover:text-brand-bg-dark transition-all duration-300 transform hover:scale-105">
+            <a href="/CVVC.docx" download="CVVC_WISYAM_ZAIN_AMANULLAH.docx" className="inline-block border border-brand-accent text-brand-accent font-medium text-sm py-2 px-4 rounded-md hover:bg-brand-accent hover:text-brand-bg-dark transition-all duration-300 transform hover:scale-105">
               Download CV
             </a>
           </div>

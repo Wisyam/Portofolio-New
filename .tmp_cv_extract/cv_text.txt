@@ -1,0 +1,319 @@
+
+
+
+
+WISYAM ZAIN AMANULLAH 
+
+
+
+Malang, Indonesia | @wyscamx 
+
+
+
++62 838 3197 3277 | https://www.linkedin.com/in/wisyam-zain-amanullah | github.com/Wisyam 
+
+
+
+OBJEKTIF 
+
+
+
+
+
+
+
+Sebagai Full-stack Developer di Apique Group dan mahasiswa aktif Teknik Informatika S1 di Universitas Ciputra Surabaya, saya berfokus pada pengembangan web modern menggunakan React dan Node.js. Saya memiliki spesialisasi dalam pengembangan front-end dan back-end untuk menciptakan solusi perangkat lunak yang scalable dan berkualitas tinggi. Saya berkomitmen untuk terus meningkatkan keahlian teknis sambil memberikan hasil yang optimal dan fungsional di sisi frontend maupun backend.
+
+
+
+PENDIDIKAN 
+
+
+
+
+
+Universitas Ciputra Surabaya Feb 2026 – Sekarang
+
+
+
+● Teknik Informatika (S1)
+
+
+
+
+
+
+
+SMK Telkom Malang 2022 – 2025 
+
+
+
+● Software Engineer 
+
+
+
+● Network Engineer 
+
+
+
+PENGALAMAN 
+
+
+
+
+
+
+
+Diesnatalis SMK Telkom Malang, Malang Sep 2023 – Present Frontend & Backend Developer 
+
+
+
+• Designed UI/UX untuk halaman yang akan di tampilkan untuk kasir/admin 
+
+
+
+• Mengembangkan Website Fullstack untuk Diesnatalis yang bertujuan managemen keuangan lebih mudah 
+
+
+
+• Koordinasi/Maintenance dengan guru pembimbing untuk aplikasi production sebelum hari pemakaian 
+
+
+
+Project Experience, Malang 
+
+
+
+Mobigo Frontend Developer, Backend Developer, UI/UX Designer & Mentor Mar 2024- Apr 2024 
+
+
+
+• Membuat aplikasi web rental mobil yang mempermudah pengelolaan kendaraan, transaksi, dan manajemen user/admin 
+
+
+
+• Berperan sebagai Frontend, Backend, sekaligus UI/UX Designer dalam tim 
+
+
+
+• Membuat sistem autentikasi, transaksi sewa, dashboard admin, dan tampilan responsif menggunakan Next.js, Tailwind CSS, dan Express.js 
+
+
+
+• Merancang relasi database dan flowchart backend sebagai dokumentasi pengembangan 
+
+
+
+• Memandu dan membantu anggota tim lain memahami proses pembuatan website dari desain hingga deployment 
+
+
+
+Backend Intern, Malang 
+
+
+
+PT Lanius Inovasi Indonesia Nov 2024 – Apr 2025
+
+
+
+• Berkontribusi dalam pengembangan backend system bersama tim teknis internal. • Membuat dan mengelola query di Hopscotch untuk mengakses dan memanipulasi data. • Mempelajari dan menerapkan standar penamaan dan struktur yang sesuai dengan aturan perusahaan. 
+
+
+
+• Membantu dalam proses pembuatan tabel database yang digunakan dalam backend, yang kemudian di deploy ke server produksi. 
+
+
+
+• Mendukung tim dalam proses integrasi dan pengujian data untuk memastikan performa dan stabilitas database. 
+
+
+
+Game Development, Malang Aug 2020 – 2022 Basic System 
+
+
+
+• Mengembangkan fitur basic seperti jalan, lompat dan idle secara bertahap untuk mencapai kondisi yang di inginkan 
+
+
+
+• Mengembangkan pengambilan item yang terjatuh dan penerimaan damage dari entitas. 
+
+
+
+Freelance / Self Employed Jul 2020 – 2025 
+
+
+
+Game Server Developer 
+
+
+
+• Mengembangkan server game yang terpisah dari server utama. 
+
+
+
+• Membuat fitur secara menyeluruh yang di persiapkan untuk Private Server. 
+
+
+
+• Ikut serta membantu project server di bagian UI menggunakan tailwind & react
+
+
+
+ • Menerapkan sistem load balancing sederhana dan port forwarding untuk akses publik. 
+
+
+
+
+
+
+
+3D Model Store Owner 
+
+
+
+• Mendesain 3D Model menggunakan berbagai Tools terutama Blender 
+
+
+
+• Mengelola toko online dan melakukan transaksi digital 
+
+
+
+• Melakukan Digital Marketing untuk menarik Client 
+
+
+
+• Merekrut Anggota untuk melakukan jobdesk masing masing 
+
+
+
+• Membuat Game Server Test untuk memberikan client experience percobaan pada 3D Model secara langsung 
+
+
+
+Game Server Administrator & Bug Hunter 
+
+
+
+• Melakukan pengawasan langsung di dalam game untuk memastikan jalannya permainan adil dan sesuai peraturan. 
+
+
+
+• Berperan sebagai bug hunter menemukan, mendokumentasikan, dan melaporkan bug teknis, glitch, dan exploit kepada developer/server founder. 
+
+
+
+• Berkontribusi dalam pengujian fitur baru dan memberi masukan terhadap balancing serta gameplay mechanics. 
+
+
+
+
+
+Full-stack Developer
+
+Apique Group, Malang Juni 2025 – Sekarang
+
+Bertanggung jawab penuh atas pengembangan dan pemeliharaan aplikasi web full-stack menggunakan teknologi modern seperti React/Next.js dan Laravel.
+
+Berkoordinasi dengan tim desain untuk mengimplementasikan fitur UI/UX yang responsif dan sesuai standar bisnis.
+
+Menerapkan prinsip rekayasa perangkat lunak untuk memastikan kualitas, skalabilitas, dan stabilitas aplikasi yang digunakan oleh klien.
+
+
+
+PENGALAMAN ORGANISASI
+
+
+
+
+
+
+
+Dewan Ambalan ( Kepramukaan ) Sep 2022 – Present 
+
+
+
+Sie Dokumentasi 
+
+
+
+• Berkoordinasi dengan tim untuk mengimplementasikan project project portingan untuk ditampilkan pada media sosial Dewan Ambalan 
+
+
+
+• Merancang berbagai design sesuai dengan standart design yang ditentukan oleh Pembina Dewan Ambalan 
+
+
+
+TRAINING, COURSES & CERTIFICATIONS 
+
+Sertifikat Kelas Belajar Dasar HTML
+
+Dasar Pemogramman Web
+
+Sertifikat Kelas Belajar JavaScript DOM
+
+Sertifikat Kelas Belajar JavaScript Asynchronous
+
+Sertifikat Kelas Mengenal Pemrograman Komputer
+
+Backend Dev, LaniusMV (April 2025)
+
+React Developer, Dicoding.com (September 2023)
+
+
+
+SKILLS 
+
+
+
+
+
+Keahlian Teratas
+
+Pengembangan Web, Front-End Development, Back-End Web Development
+
+
+
+Frameworks & Libraries
+
+React, Next.js, Node.js, Express.js, Tailwind CSS
+
+
+
+
+
+Tools & Productivity
+
+
+
+Figma, Lucidchart, Github, Clickup, VSCode, VS2019, VS2022, AI Agent/Assistan ( Claude Code, Codex  and etc.) 
+
+
+
+Hard Skills
+
+
+
+UI Design, Research, Logo Design, Brand Identity, Visual Studio 
+
+
+
+
+
+
+
+Soft Skills
+
+
+
+Creativity, Communication, Team Collaboration, Time Management, User Empathy
+
+
+
+
+
+
+
+

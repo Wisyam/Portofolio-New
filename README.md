@@ -123,7 +123,7 @@ This project is for personal portfolio use.
 **Wisyam Zain Amanullah**
 - Fullstack Developer
 - Location: Malang, Indonesia
-- Email: wisyam@example.com
+- Email: wisyamamanullah@gmail.com
 
 ## 🙏 Acknowledgments
 

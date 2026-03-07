@@ -27,7 +27,7 @@ export default function RootLayout({
         <Analytics />
         <SpeedInsights />
         {/* Zapier Chatbot - Replace 'YOUR_CHATBOT_ID' with your actual chatbot ID */}
-        <ChatbotScript chatbotId="YOUR_CHATBOT_ID" />
+        <ChatbotScript chatbotId="cmmgbvabt00293lzlgjonboi8" />
         {children}
       </body>
     </html>

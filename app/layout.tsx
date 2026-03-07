@@ -26,7 +26,6 @@ export default function RootLayout({
       <body className="font-sans text-brand-text-light antialiased">
         <Analytics />
         <SpeedInsights />
-        {/* Zapier AI Chatbot */}
         <ChatbotWidget />
         {children}
       </body>

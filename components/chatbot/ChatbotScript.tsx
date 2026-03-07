@@ -19,7 +19,6 @@ export default function ChatbotWidget() {
   }, []);
 
   useEffect(() => {
-    // Close on outside click
     const handleClickOutside = (event: MouseEvent) => {
       if (widgetRef.current && !widgetRef.current.contains(event.target as Node)) {
         setIsOpen(false);

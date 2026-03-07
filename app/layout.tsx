@@ -26,8 +26,7 @@ export default function RootLayout({
       <body className="font-sans text-brand-text-light antialiased">
         <Analytics />
         <SpeedInsights />
-        {/* Zapier Chatbot - Replace 'YOUR_CHATBOT_ID' with your actual chatbot ID */}
-        <ChatbotScript chatbotId="cmmgbvabt00293lzlgjonboi8" />
+        <ChatbotScript />
         {children}
       </body>
     </html>

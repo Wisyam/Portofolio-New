@@ -2,31 +2,21 @@
 
 import Script from 'next/script';
 
-interface ChatbotScriptProps {
-  chatbotId?: string;
-}
-
-export default function ChatbotScript({ chatbotId }: ChatbotScriptProps) {
-  // If no chatbotId is provided, don't render anything
-  if (!chatbotId) {
-    return null;
-  }
-
+export default function ChatbotScript() {
   return (
-    <Script
-      id="zapier-chatbot"
-      src="https://embed.chatreviewer.com/widget/v2/client.js"
-      strategy="afterInteractive"
-      onLoad={() => {
-        // Initialize the chatbot after script loads
-        if ((window as any).ChatWidget) {
-          (window as any).ChatWidget.init({
-            chatbotId: chatbotId,
-            position: 'bottom-right',
-            theme: 'auto',
-          });
-        }
-      }}
-    />
+    <>
+      <Script
+        async
+        type="module"
+        src="https://interfaces.zapier.com/assets/web-components/zapier-interfaces/zapier-interfaces.esm.js"
+        strategy="afterInteractive"
+      />
+      <zapier-interfaces-chatbot-embed
+        is-popup="false"
+        chatbot-id="cmmgbvabt00293lzlgjonboi8"
+        height="600px"
+        width="400px"
+      />
+    </>
   );
 }

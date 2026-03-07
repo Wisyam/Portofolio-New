@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import { Analytics } from "@vercel/analytics/next";
 import { SpeedInsights } from "@vercel/speed-insights/next";
-import ChatbotScript from '@/components/chatbot/ChatbotScript';
+import ChatbotWidget from '@/components/chatbot/ChatbotScript';
 import './globals.css';
 
 export const metadata: Metadata = {
@@ -27,7 +27,7 @@ export default function RootLayout({
         <Analytics />
         <SpeedInsights />
         {/* Zapier AI Chatbot */}
-        <ChatbotScript />
+        <ChatbotWidget />
         {children}
       </body>
     </html>

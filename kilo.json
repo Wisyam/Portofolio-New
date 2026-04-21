@@ -1,0 +1,18 @@
+{
+  "$schema": "https://kilo.ai/schema/kilo.json",
+  "instructions": [
+    "This is a Next.js 16 portfolio website using App Router, TypeScript, and Tailwind CSS v4.",
+    "Use the `src/` directory structure with `@/*` import alias.",
+    "Components go in `src/components/`, utilities in `src/lib/`.",
+    "Follow React Server Components by default; add 'use client' only when needed.",
+    "Use Tailwind utility classes for styling. No CSS modules or styled-components.",
+    "Keep code clean, typed, and accessible (semantic HTML + ARIA where needed)."
+  ],
+  "mcp": {
+    "paper": {
+      "type": "remote",
+      "url": "http://127.0.0.1:29979/mcp",
+      "enabled": true
+    }
+  }
+}

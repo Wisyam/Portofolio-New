@@ -1,0 +1,18 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Dark background with rounded corners -->
+  <rect width="512" height="512" rx="108" fill="#0d1117"/>
+
+  <!-- Subtle border -->
+  <rect x="4" y="4" width="504" height="504" rx="104" stroke="#1c2333" stroke-width="8"/>
+
+  <!-- Bold "W" monogram - centered, thick, maximized for small sizes -->
+  <path d="M96 128 L176 384 L256 208 L336 384 L416 128" 
+        stroke="#00ff41" 
+        stroke-width="56" 
+        stroke-linecap="round" 
+        stroke-linejoin="round" 
+        fill="none"/>
+
+  <!-- Accent dot bottom-right (subtle brand mark) -->
+  <circle cx="432" cy="416" r="24" fill="#58a6ff"/>
+</svg>

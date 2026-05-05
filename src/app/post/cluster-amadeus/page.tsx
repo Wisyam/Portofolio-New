@@ -35,7 +35,9 @@ const pagePath = "/post/cluster-amadeus";
 const canonicalUrl = `${siteUrl}${pagePath}`;
 
 export const metadata: Metadata = {
-  title: "Dijual — Cluster Amadeus Rancamaya | Arco Sawangan",
+  title: {
+    absolute: "Dijual — Cluster Amadeus Rancamaya | Arco Sawangan",
+  },
   description:
     "Rumah Cluster Amadeus Rancamaya Golf Estate & info Komplek Arco Sawangan Sawangan. Hubungi WhatsApp 082169101363.",
   keywords: [

@@ -24,61 +24,126 @@ const vt323 = VT323({
 
 const siteUrl =
   process.env.NEXT_PUBLIC_SITE_URL || "https://wisyam.site";
-const siteName = "Wisyam Zain Amanullah - Portfolio";
-const description =
-  "Full-stack Developer at Apique Group and Informatics undergraduate building modern web applications with React, Next.js, Node.js, and scalable backend workflows.";
+const origin = new URL(siteUrl);
+
+const personName = "Wisyam Zain Amanullah";
+const siteName = `${personName} - Portfolio`;
+
+const descriptionPrimary =
+  "Full-stack developer in Malang, Indonesia—building scalable web apps with React, Next.js, TypeScript, Node.js & Laravel at Apique Group. Informatics student; portfolio, skills, projects, and contact.";
+
+const canonicalPath = "/";
+const ogImageAlt = `${personName} — developer portfolio`;
+
+const keywords = Array.from(
+  new Set([
+    personName,
+    "Wisyam",
+    "Wisyam Portfolio",
+    "portfolio developer Indonesia",
+    "Full-stack Developer",
+    "Software Engineer",
+    "Web Developer",
+    "pengembang web",
+    "pengembang full-stack",
+    "Malang Indonesia",
+    "Apique Group",
+    "Wisyam Telkom",
+    "Wisyam Ciputra University",
+    "React",
+    "Next.js",
+    "Node.js",
+    "Express.js",
+    "TypeScript",
+    "JavaScript",
+    "Laravel",
+    "PHP",
+    "Tailwind CSS",
+    "HTML",
+    "CSS",
+    "REST API",
+    "backend development",
+    "GitHub",
+    "informatics undergraduate",
+    "mahasiswa informatika",
+    "responsive web apps",
+    "terminal UI portfolio",
+    "developer portfolio Next.js",
+  ]),
+);
+
+const personSchemaId = `${origin.origin}/#person`;
+const websiteSchemaId = `${origin.origin}/#website`;
 
 const structuredData = {
   "@context": "https://schema.org",
-  "@type": "Person",
-  name: "Wisyam Zain Amanullah",
-  url: siteUrl,
-  jobTitle: "Full-stack Developer",
-  sameAs: [
-    "https://github.com/Wisyam",
-    "https://www.linkedin.com/in/wisyam-zain-amanullah",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": personSchemaId,
+      name: personName,
+      url: origin.origin,
+      image: `${origin.origin}/og-image.svg`,
+      jobTitle: "Full-stack Developer",
+      description: descriptionPrimary,
+      address: {
+        "@type": "PostalAddress",
+        addressLocality: "Malang",
+        addressRegion: "East Java",
+        addressCountry: "ID",
+      },
+      worksFor: {
+        "@type": "Organization",
+        name: "Apique Group",
+      },
+      knowsAbout: [
+        "React (JavaScript library)",
+        "Next.js",
+        "Node.js",
+        "TypeScript",
+        "Laravel",
+        "Web accessibility",
+        "REST API design",
+        "Responsive web development",
+      ],
+      sameAs: [
+        "https://github.com/Wisyam",
+        "https://www.linkedin.com/in/wisyam-zain-amanullah",
+      ],
+    },
+    {
+      "@type": "WebSite",
+      "@id": websiteSchemaId,
+      url: origin.origin,
+      name: siteName,
+      description: descriptionPrimary,
+      inLanguage: ["en-US", "id-ID"],
+      publisher: { "@id": personSchemaId },
+    },
   ],
 };
 
 export const metadata: Metadata = {
-  metadataBase: new URL(siteUrl),
-  title: siteName,
-  description,
-  keywords: [
-    "Full-stack Developer",
-    "Portfolio",
-    "React",
-    "Next.js",
-    "Node.js",
-    "Web Developer",
-    "Wisyam Zain Amanullah",
-  ],
-  authors: [{ name: "Wisyam Zain Amanullah" }],
+  metadataBase: origin,
+  applicationName: siteName,
+  title: {
+    default: siteName,
+    template: `%s · ${personName}`,
+  },
+  description: descriptionPrimary,
+  keywords,
+  authors: [{ name: personName, url: origin.origin }],
+  creator: personName,
+  publisher: personName,
+  category: "technology",
   alternates: {
-    canonical: "/",
+    canonical: canonicalPath,
+    languages: {
+      "en-US": canonicalPath,
+      "id-ID": canonicalPath,
+    },
   },
-  openGraph: {
-    title: siteName,
-    description,
-    url: "/",
-    siteName,
-    type: "website",
-    locale: "en_US",
-    images: [
-      {
-        url: "/og-image.svg",
-        width: 1200,
-        height: 630,
-        alt: "Wisyam Zain Amanullah Portfolio",
-      },
-    ],
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: siteName,
-    description,
-    images: ["/og-image.svg"],
-  },
+  referrer: "origin-when-cross-origin",
   robots: {
     index: true,
     follow: true,
@@ -89,6 +154,30 @@ export const metadata: Metadata = {
       "max-image-preview": "large",
       "max-snippet": -1,
     },
+  },
+  openGraph: {
+    title: siteName,
+    description: descriptionPrimary,
+    url: canonicalPath,
+    siteName,
+    type: "website",
+    locale: "en_US",
+    alternateLocale: ["id_ID"],
+    images: [
+      {
+        url: "/og-image.svg",
+        width: 1200,
+        height: 630,
+        alt: ogImageAlt,
+        type: "image/svg+xml",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: siteName,
+    description: descriptionPrimary,
+    images: ["/og-image.svg"],
   },
   verification: {
     google: "google7997e88257377c4e",

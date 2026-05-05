@@ -146,7 +146,7 @@ export default function ContactSection() {
                     &#10003; Message sent successfully!
                   </p>
                   <p className="text-text-muted text-xs">
-                    $ echo "Thanks! I'll get back to you soon."
+                    {`$ echo "Thanks! I'll get back to you soon."`}
                   </p>
                 </div>
               )}
